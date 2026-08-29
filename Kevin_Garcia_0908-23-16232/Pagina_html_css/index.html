@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi pagina web</title>
+
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #2563eb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Menú */
+        nav {
+            background-color: #1e40af;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenido principal */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Botón */
+        .boton {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .boton:hover {
+            background-color: #1e40af;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Página</h1>
+        <p>Una página usando HTML y CSS</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio" class="tarjeta">
+            <h2>Bienvenido</h2>
+
+            <p>
+                Esta es una página web y se uso
+                HTML para la estructura y CSS para el diseño.
+            </p>
+
+            <a href="#contacto" class="boton">Contactar</a>
+        </section>
+
+        <section id="nosotros" class="tarjeta">
+            <h2>Sobre Nosotros</h2>
+
+            <p>
+                Esta es una página web.
+                Aquí se puede colocar información sobre una empresa,
+                proyecto, negocio o actividad.
+            </p>
+        </section>
+
+        <section id="contacto" class="tarjeta">
+            <h2>Contacto</h2>
+
+            <p>Correo: ejemplo@gmail.com</p>
+            <p>Teléfono: 5555-5555</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mi Página Web - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
